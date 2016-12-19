@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E619B6CA1E088949008C3330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6C91E088949008C3330 /* AppDelegate.swift */; };
+		E619B6CC1E088949008C3330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6CB1E088949008C3330 /* ViewController.swift */; };
+		E619B6CF1E088949008C3330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E619B6CD1E088949008C3330 /* Main.storyboard */; };
+		E619B6D11E088949008C3330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E619B6D01E088949008C3330 /* Assets.xcassets */; };
+		E619B6D41E088949008C3330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E619B6D21E088949008C3330 /* LaunchScreen.storyboard */; };
+		E619B6DF1E088949008C3330 /* Water_DrankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6DE1E088949008C3330 /* Water_DrankTests.swift */; };
+		E619B6EA1E088949008C3330 /* Water_DrankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E619B6E91E088949008C3330 /* Water_DrankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E619B6DB1E088949008C3330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E619B6BE1E088949008C3330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E619B6C51E088949008C3330;
+			remoteInfo = "Water Drank";
+		};
+		E619B6E61E088949008C3330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E619B6BE1E088949008C3330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E619B6C51E088949008C3330;
+			remoteInfo = "Water Drank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E619B6C61E088949008C3330 /* Water Drank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Drank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E619B6C91E088949008C3330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E619B6CB1E088949008C3330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E619B6CE1E088949008C3330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E619B6D01E088949008C3330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E619B6D31E088949008C3330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E619B6D51E088949008C3330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E619B6DA1E088949008C3330 /* Water DrankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water DrankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E619B6DE1E088949008C3330 /* Water_DrankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_DrankTests.swift; sourceTree = "<group>"; };
+		E619B6E01E088949008C3330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E619B6E51E088949008C3330 /* Water DrankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water DrankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E619B6E91E088949008C3330 /* Water_DrankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_DrankUITests.swift; sourceTree = "<group>"; };
+		E619B6EB1E088949008C3330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E619B6C31E088949008C3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6D71E088949008C3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6E21E088949008C3330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E619B6BD1E088949008C3330 = {
+			isa = PBXGroup;
+			children = (
+				E619B6C81E088949008C3330 /* Water Drank */,
+				E619B6DD1E088949008C3330 /* Water DrankTests */,
+				E619B6E81E088949008C3330 /* Water DrankUITests */,
+				E619B6C71E088949008C3330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E619B6C71E088949008C3330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E619B6C61E088949008C3330 /* Water Drank.app */,
+				E619B6DA1E088949008C3330 /* Water DrankTests.xctest */,
+				E619B6E51E088949008C3330 /* Water DrankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E619B6C81E088949008C3330 /* Water Drank */ = {
+			isa = PBXGroup;
+			children = (
+				E619B6C91E088949008C3330 /* AppDelegate.swift */,
+				E619B6CB1E088949008C3330 /* ViewController.swift */,
+				E619B6CD1E088949008C3330 /* Main.storyboard */,
+				E619B6D01E088949008C3330 /* Assets.xcassets */,
+				E619B6D21E088949008C3330 /* LaunchScreen.storyboard */,
+				E619B6D51E088949008C3330 /* Info.plist */,
+			);
+			path = "Water Drank";
+			sourceTree = "<group>";
+		};
+		E619B6DD1E088949008C3330 /* Water DrankTests */ = {
+			isa = PBXGroup;
+			children = (
+				E619B6DE1E088949008C3330 /* Water_DrankTests.swift */,
+				E619B6E01E088949008C3330 /* Info.plist */,
+			);
+			path = "Water DrankTests";
+			sourceTree = "<group>";
+		};
+		E619B6E81E088949008C3330 /* Water DrankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E619B6E91E088949008C3330 /* Water_DrankUITests.swift */,
+				E619B6EB1E088949008C3330 /* Info.plist */,
+			);
+			path = "Water DrankUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E619B6C51E088949008C3330 /* Water Drank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E619B6EE1E088949008C3330 /* Build configuration list for PBXNativeTarget "Water Drank" */;
+			buildPhases = (
+				E619B6C21E088949008C3330 /* Sources */,
+				E619B6C31E088949008C3330 /* Frameworks */,
+				E619B6C41E088949008C3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Water Drank";
+			productName = "Water Drank";
+			productReference = E619B6C61E088949008C3330 /* Water Drank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E619B6D91E088949008C3330 /* Water DrankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E619B6F11E088949008C3330 /* Build configuration list for PBXNativeTarget "Water DrankTests" */;
+			buildPhases = (
+				E619B6D61E088949008C3330 /* Sources */,
+				E619B6D71E088949008C3330 /* Frameworks */,
+				E619B6D81E088949008C3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E619B6DC1E088949008C3330 /* PBXTargetDependency */,
+			);
+			name = "Water DrankTests";
+			productName = "Water DrankTests";
+			productReference = E619B6DA1E088949008C3330 /* Water DrankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E619B6E41E088949008C3330 /* Water DrankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E619B6F41E088949008C3330 /* Build configuration list for PBXNativeTarget "Water DrankUITests" */;
+			buildPhases = (
+				E619B6E11E088949008C3330 /* Sources */,
+				E619B6E21E088949008C3330 /* Frameworks */,
+				E619B6E31E088949008C3330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E619B6E71E088949008C3330 /* PBXTargetDependency */,
+			);
+			name = "Water DrankUITests";
+			productName = "Water DrankUITests";
+			productReference = E619B6E51E088949008C3330 /* Water DrankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E619B6BE1E088949008C3330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Patrick Lockett";
+				TargetAttributes = {
+					E619B6C51E088949008C3330 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3539586UME;
+						ProvisioningStyle = Automatic;
+					};
+					E619B6D91E088949008C3330 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3539586UME;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E619B6C51E088949008C3330;
+					};
+					E619B6E41E088949008C3330 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3539586UME;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E619B6C51E088949008C3330;
+					};
+				};
+			};
+			buildConfigurationList = E619B6C11E088949008C3330 /* Build configuration list for PBXProject "Water Drank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E619B6BD1E088949008C3330;
+			productRefGroup = E619B6C71E088949008C3330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E619B6C51E088949008C3330 /* Water Drank */,
+				E619B6D91E088949008C3330 /* Water DrankTests */,
+				E619B6E41E088949008C3330 /* Water DrankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E619B6C41E088949008C3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6D41E088949008C3330 /* LaunchScreen.storyboard in Resources */,
+				E619B6D11E088949008C3330 /* Assets.xcassets in Resources */,
+				E619B6CF1E088949008C3330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6D81E088949008C3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6E31E088949008C3330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E619B6C21E088949008C3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6CC1E088949008C3330 /* ViewController.swift in Sources */,
+				E619B6CA1E088949008C3330 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6D61E088949008C3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6DF1E088949008C3330 /* Water_DrankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E619B6E11E088949008C3330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E619B6EA1E088949008C3330 /* Water_DrankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E619B6DC1E088949008C3330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E619B6C51E088949008C3330 /* Water Drank */;
+			targetProxy = E619B6DB1E088949008C3330 /* PBXContainerItemProxy */;
+		};
+		E619B6E71E088949008C3330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E619B6C51E088949008C3330 /* Water Drank */;
+			targetProxy = E619B6E61E088949008C3330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E619B6CD1E088949008C3330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E619B6CE1E088949008C3330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E619B6D21E088949008C3330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E619B6D31E088949008C3330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E619B6EC1E088949008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E619B6ED1E088949008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E619B6EF1E088949008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Water Drank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Water-Drank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E619B6F01E088949008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Water Drank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Water-Drank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E619B6F21E088949008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Water DrankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Water-DrankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Drank.app/Water Drank";
+			};
+			name = Debug;
+		};
+		E619B6F31E088949008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Water DrankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Water-DrankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Drank.app/Water Drank";
+			};
+			name = Release;
+		};
+		E619B6F51E088949008C3330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Water DrankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Water-DrankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Water Drank";
+			};
+			name = Debug;
+		};
+		E619B6F61E088949008C3330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3539586UME;
+				INFOPLIST_FILE = "Water DrankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "patricklockett.Water-DrankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Water Drank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E619B6C11E088949008C3330 /* Build configuration list for PBXProject "Water Drank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6EC1E088949008C3330 /* Debug */,
+				E619B6ED1E088949008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E619B6EE1E088949008C3330 /* Build configuration list for PBXNativeTarget "Water Drank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6EF1E088949008C3330 /* Debug */,
+				E619B6F01E088949008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E619B6F11E088949008C3330 /* Build configuration list for PBXNativeTarget "Water DrankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6F21E088949008C3330 /* Debug */,
+				E619B6F31E088949008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E619B6F41E088949008C3330 /* Build configuration list for PBXNativeTarget "Water DrankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E619B6F51E088949008C3330 /* Debug */,
+				E619B6F61E088949008C3330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E619B6BE1E088949008C3330 /* Project object */;
+}
